@@ -1,1 +1,1 @@
-# cpsc336-fa23-GIT-SILLY-
+# cpsc336-fa23-GIT-SILLY
