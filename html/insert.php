@@ -1,4 +1,6 @@
 <?php
 include_once"connect.php";
 echo "test";
-echo $_GET['itemid'];
+$itemid =  $_GET['itemid'];
+$itemname = $_GET['itemname'];
+$itemquantity = $_GET['itemq'];
