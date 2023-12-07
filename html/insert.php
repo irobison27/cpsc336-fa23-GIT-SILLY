@@ -8,7 +8,7 @@ include_once "connect.php";
 $itemid = $_POST['itemid'];
 $itemname = $_POST['itemname'];
 $itemquantity = $_POST['itemq'];
-
+$redirectURL = "http://54.227.47.135";
 //This creates an SQL query accessing the inventory table inserting placeholder values for ItemID, ItemName, and ItemQuantity
 $sql = "INSERT INTO inventory (ItemID, ItemName, ItemQuantity) VALUES (?, ?, ?)";
 
@@ -22,7 +22,7 @@ if ($stmt) {
 
 //This checks to see if the statement successfuly executed or not. If it doesn'tit informs what the error was. 
     if ($stmt->execute()) {
-        echo 'Data inserted successfully!'; }
+        echo "<a href='$redirectURL'> Data Added Click Here To Go Back</a>"; }
     else {
         echo 'Error when executing the statement.'; }
 } else{
