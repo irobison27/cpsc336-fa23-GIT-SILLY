@@ -2,6 +2,28 @@
 <html>
 	<!-- <link rel="stylesheet" href="insert.css" type="text/css" /> -->
 
+<body>
+        <p>
+<b><u>GIT SILLY</b></u>
+</body>
+
+
+<body>
+        <p>
+<b>Simple Inventory System Project</b>
+</body>
+        </p>
+
+<body>
+        <p>
+Team Members:
+Ian Robison,
+Briana Tolleson,
+Sasha Stevens,
+Garrett Ford.
+        </p>
+
+</body>
 <head>
 	<form action="insert.php" method="POST" class="form">
 
@@ -25,29 +47,4 @@
 	<button type="submit" class="button">Delete Item</button>
 	<title>index</title>
 </head>
-
-	</p>
-
-<body>
-	<p>
-GIT SILLY
-</body>
-
-
-<body>
-	<p>
-Simple Inventory System Project
-</body>
-	</p>
-
-<body>
-	<p>
-Team Members:
-Ian Robison,
-Briana Tolleson,
-Sasha Stevens,
-Garrett Ford.
-	</p>
-
-</body>
 </html>
